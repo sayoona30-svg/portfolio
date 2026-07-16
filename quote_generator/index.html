@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Éclat — Générateur de Citations</title>
+    <header class="header">
+      <a href="" class="back-link">&larr; Retour Portfolio</a>
+    </header>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .back-link {
+    color: #ff06cd; 
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: #a30275; 
+}
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 600px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        padding: 50px 40px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 10px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
+
+      .subtitle {
+        color: #888;
+        font-size: 0.95rem;
+        margin-bottom: 40px;
+        font-weight: 300;
+      }
+
+      #quote {
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: #2c3e50;
+        margin-bottom: 25px;
+        min-height: 60px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+
+      #author {
+        font-size: 1rem;
+        color: #667eea;
+        font-style: italic;
+        margin-bottom: 40px;
+        font-weight: 600;
+      }
+
+      button {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        padding: 14px 40px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+      }
+
+      button:active {
+        transform: translateY(0);
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 40px 25px;
+        }
+
+        h1 {
+          font-size: 1.6rem;
+        }
+
+        #quote {
+          font-size: 1.1rem;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    </style>
+ 
+  </head>
+  <body>
+    <div class="container">
+      <h1>✨ Citation du jour ✨</h1>
+      <p class="subtitle">Inspirez-vous avec une citation chaque jour</p>
+      <p id="quote">Cliquez sur le bouton pour générer une citation!</p>
+      <p id="author"></p>
+      <button id="generate-btn">Générer une citation</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

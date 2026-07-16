@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar-header">
+        <nav class="navbar container">
+            <div class="logo">PrestigeDev</div>
+            <ul class="nav-links">
+                <li><a href="acceuil.html" class="active">Accueil</a></li>
+                <li><a href="projet.html">Mes Projets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-container container">
+            
+            <div class="profile-area">
+                <img src="images/20251215_111401.jpg" alt="Ma Photo Personnelle" class="profile-pic" id="my-profile-img">
+            </div>
+
+            <div class="hero-content">
+                <h1>Bonjour, je suis ELIEN Witchnie Saïna <span class="highlight">Développeur Web</span></h1>
+                <p>Bienvenue sur mon portfolio professionnel. Je conçois des expériences web d'exception combinant un code rigoureux et des interfaces élégantes.</p>
+                <a href="projet.html" class="btn-primary">Découvrir mes projets </a>
+                <h1 class="page-title">Apropos de moi </h1>
+        <p class="page-subtitle">Développeur web en constante évolution, je me spécialise dans la création d'applications web interactives et élégantes en utilisant HTML, CSS et JavaScript. Curieux de nature et polyvalent, je m'intéresse également de près aux infrastructures réseaux, ce qui me permet de concevoir aussi bien des vitrines e-commerce de prestige que des outils techniques complexes comme des simulateurs de configuration réseau (VLAN, routage).
+Rigoureux et autonome, je mets mes compétences techniques au service de projets web robustes, esthétiques et performants.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section">
+        <h2 class="section-title">Mes Compétences </h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5 & CSS3 </h3>
+                <p>Conception de structures sémantiques  et d'interfaces entièrement adaptatives (Responsive Design) pour tous les écrans.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Création d'applications dynamiques , manipulation du DOM, intégration d'API tierces  et gestion du stockage local.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Intégration & Design</h3>
+                <p>Création de chartes graphiques de luxe, respect des standards ergonomiques et intégration soignée du design.</p>
+            </div>
+             <div class="skill-card">
+                <h3>Resaux</h3>
+                <p>Routage et communication, configuration de VLan,modele OSI et TCPIP, cisco packet tracer.</p>
+            </div>
+             <div class="skill-card">
+                <h3>Mes outils</h3>
+                <p>Visual Studio code, Word, Excel, VirtualBox/Hyper-V management, Adobe photoshoot et Microsoft office.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section">
+        <h2 class="section-title">Me Contacter </h2>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Votre message a été envoyé avec succès !');">
+            <input type="text" placeholder="Votre Nom" required>
+            <input type="email" placeholder="Votre Adresse Email" required>
+            <textarea placeholder="Votre Message" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Envoyer le message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Projet final SFSTWebClient2026 </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

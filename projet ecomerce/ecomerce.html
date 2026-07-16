@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="ecomerce.css">
+</head>
+<body>
+
+    <header class="shop-header">
+        <div class="shop-nav container">
+            <a href="" class="back-link">&larr; Retour Portfolio</a>
+            <div class="logo-shop">Prestige</div>
+            <button id="cart-toggle" class="cart-btn">
+                🛒 Panier (<span id="cart-count">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="shop-title">L'Écrin & Le Flacon</h1>
+        <p class="shop-subtitle">Un look n'est pas parfait sans les accesoires placez votre commande pour rayonnez dans ce monde bien terne.</p>
+
+        <div class="filter-container">
+            <button class="filter-btn active" id="btn-all">Tous</button>
+            <button class="filter-btn" id="btn-bijoux">Bijoux</button>
+            <button class="filter-btn" id="btn-parfums">Parfums</button>
+        </div>
+        
+        <div class="products-grid">
+            
+            <div class="product-card item-bijoux">
+                <img src="https://www.krossin.fr/wp-content/uploads/2024/03/1_collier-diamants-christie-s-2-krossin-bijouterie-colliers-les-plus-chers-600x495.jpg" alt="Collier" class="product-img" id="img-prod1">
+                <div class="product-info">
+                    <h3 id="title-prod1">Collier </h3>
+                    <p id="desc-prod1">Serti de pierres étincelantes.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod1">290.00 €</span>
+                    <button class="add-btn" id="add-prod1">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card item-bijoux">
+                <img src="https://i.pinimg.com/736x/50/d7/04/50d70468b586ed29e689a80dd729689f.jpg" alt="collier" class="product-img" id="img-prod2">
+                <div class="product-info">
+                    <h3 id="title-prod2">collier</h3>
+                    <p id="desc-prod2">Une brillance incomparable façonnée à la main.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod2">450.00 €</span>
+                    <button class="add-btn" id="add-prod2">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card item-bijoux">
+                <img src="https://www.universfleuri.com/wp-content/uploads/2024/12/collier-fleur-br-classe-1.jpg" alt="collier" class="product-img" id="img-prod3">
+                <div class="product-info">
+                    <h3 id="title-prod3">collier</h3>
+                    <p id="desc-prod3">Design moderne et finitions polies d'une extrême élégance.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod3">180.00 €</span>
+                    <button class="add-btn" id="add-prod3">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card item-bijoux">
+                <img src="https://agcw.store/cdn/shop/files/black-clover-bracelet-shot.jpg?v=1745653696&width=1426" alt="bracelet" class="product-img" id="img-prod4">
+                <div class="product-info">
+                    <h3 id="title-prod4">Bracelet</h3>
+                    <p id="desc-prod4">Un poignet magifique une outfit reussi.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod4">120.99 €</span>
+                    <button class="add-btn" id="add-prod4">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card item-bijoux">
+                <img src="https://ae-pic-a1.aliexpress-media.com/kf/S637f0111af2d4dacbade46a944101fa7X/Bracelets-tanches-en-acier-inoxydable-dor-pour-femme-design-tendance-cadeau-de-marque-de-luxe.jpg_.webp" alt="bracelet" class="product-img" id="img-prod5">
+                <div class="product-info">
+                    <h3 id="title-prod5">Bracelet</h3>
+                    <p id="desc-prod5">La brillance et l'élégance autour d'un poignet.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod5">125.50 €</span>
+                    <button class="add-btn" id="add-prod5">Ajouter</button>
+                </div>
+            </div>
+            
+            <div class="product-card item-bijoux">
+                <img src="https://www.laboutiquedeshommes.com/cdn/shop/files/Bracelet_photo_personnalise_luxe_argent_et_or.jpg?v=1728500959&width=600" alt="bracelet" class="product-img" id="img-prod6">
+                <div class="product-info">
+                    <h3 id="title-prod4">Bracelet</h3>
+                    <p id="desc-prod4">Magnifiquement elegant.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod4">250.80 €</span>
+                    <button class="add-btn" id="add-prod4">Ajouter</button>
+                </div>
+            </div>
+            
+            <div class="product-card item-parfums">
+                <img src="https://i.pinimg.com/originals/c4/bc/55/c4bc552db0d88fced2a2ee6f13465044.jpg" alt="Parfum" class="product-img" id="img-prod7">
+                <div class="product-info">
+                    <h3 id="title-prod4">Parfum</h3>
+                    <p id="desc-prod4">Raffiner son look avec un parfum qui reste grave dans les memoires.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod4">799.99 €</span>
+                    <button class="add-btn" id="add-prod4">Ajouter</button>
+                </div>
+            </div>
+            
+            <div class="product-card item-parfums">
+                <img src="https://www.beaute-revolution.fr/wp-content/uploads/391f2b69-8628-4b32-a1e0-e1765e48f32a.png" alt="Parfum" class="product-img" id="img-prod8">
+                <div class="product-info">
+                    <h3 id="title-prod4">Parfum</h3>
+                    <p id="desc-prod4">uUn souvenire graver dans l'odorat.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod4">800.00 €</span>
+                    <button class="add-btn" id="add-prod4">Ajouter</button>
+                </div>
+            </div>
+            
+            <div class="product-card item-parfums">
+                <img src="https://t4.ftcdn.net/jpg/05/75/14/43/360_F_575144312_kMPnCidchCvdJTt1FwXCAbFms8CDumjO.jpg" alt="Parfum" class="product-img" id="img-prod9">
+                <div class="product-info">
+                    <h3 id="title-prod4">Parfum</h3>
+                    <p id="desc-prod4">Une senteur une fraicheur aussi elegant que le look.</p>
+                </div>
+                <div class="product-footer">
+                    <span class="product-price" id="price-prod4">560.00 €</span>
+                    <button class="add-btn" id="add-prod4">Ajouter</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h3>Votre Sélection</h3>
+            <button id="cart-close" class="close-btn">&times;</button>
+        </div>
+        
+        <div id="cart-items" class="cart-items">
+            </div>
+
+        <div class="cart-footer">
+            <div class="total-container">
+                <span>Total :</span>
+                <span id="cart-total">0.00 €</span>
+            </div>
+            <button class="checkout-btn" onclick="alert('Commande validée ! Merci de votre confiance.')">Passer la commande</button>
+        </div>
+    </div>
+
+    <script src="ecomerce.js"></script>
+</body>
+</html>
