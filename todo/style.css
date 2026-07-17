@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f4f4f9;
+  background: rgb(255, 204, 225);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -20,12 +20,12 @@ body {
 }
 
 .back-link:hover {
-    color: #08c3fc; 
+    color: #1c667d; 
 }
 .container {
   width: 90%;
   max-width: 500px;
-  background: white;
+  background: rgb(225, 149, 171);
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);

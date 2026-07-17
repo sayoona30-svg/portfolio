@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
-            
+          
             header.classList.add("scrolled");
         } else {
             
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             alert("Merci ! Votre message a bien été envoyé de manière sécurisée.");
             
-            // Vide les champs
+            
             champsSaisis.forEach(champ => champ.value = "");
         });
     }
